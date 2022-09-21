@@ -327,7 +327,7 @@
 				<Title>rj_municipios_2021</Title>
 				<Abstract>GH:rj_municipios_2021 ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/rj_municipios_2021.zip˸notListing˸˸maxZoom˸8</Keyword>
+					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/rj_municipios_2021.zip˸notListing˸˸maxZoom˸5</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-44.88932055099994" miny="-23.368931961999948" maxx="-40.957940915999984" maxy="-20.76320546099991"></LatLonBoundingBox>
@@ -347,7 +347,7 @@
 				<Title>br_uf_2021</Title>
 				<Abstract>GH:br_uf_2021 ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/br_uf_2021.zip˸notListing˸˸maxZoom˸8</Keyword>
+					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/br_uf_2021.zip˸notListing˸˸maxZoom˸5</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-73.9904499689999" miny="-33.751177993999946" maxx="-28.847639913999988" maxy="5.271841076999998"></LatLonBoundingBox>
