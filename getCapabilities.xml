@@ -176,7 +176,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:rj_municipios_2021</Layers>
+				<Layers>GH:rj_municipios_2021___rj_municipios_2021_shp</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -186,7 +186,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:rj_municipios_2021</Layers>
+				<Layers>GH:rj_municipios_2021___rj_municipios_2021_shp</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -196,7 +196,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:rj_municipios_2021___rj_municipios_2021_shp</Layers>
+				<Layers>GH:rj_municipios_2021</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -206,7 +206,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:rj_municipios_2021___rj_municipios_2021_shp</Layers>
+				<Layers>GH:rj_municipios_2021</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -232,6 +232,11 @@
 			<CustomLayer>
 				<Name>GH:vm_app_bdgpoint</Name>
 				<Title>vm_app_bdgpoint</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
+			<CustomLayer>
+				<Name>GH:centroide</Name>
+				<Title>centroide</Title>
 				<Operation type="csv">1</Operation>
 			</CustomLayer>
 		</VendorSpecificCapabilities>
@@ -298,26 +303,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:rj_municipios_2021</Name>
-				<Title>rj_municipios_2021</Title>
-				<Abstract>GH:rj_municipios_2021 ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/rj_municipios_2021.zip˸notListing˸˸maxZoom˸10</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-44.88932055099994" miny="-23.368931961999948" maxx="-40.957940915999984" maxy="-20.76320546099991"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-44.88932055099994" miny="-23.368931961999948" maxx="-40.95794091600002" maxy="-20.76320546099991"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=rj_municipios_2021"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:rj_municipios_2021___rj_municipios_2021_shp</Name>
 				<Title>rj_municipios_2021___rj_municipios_2021_shp</Title>
 				<Abstract>GH:rj_municipios_2021___rj_municipios_2021_shp ABSTRACT</Abstract>
@@ -338,11 +323,31 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
+				<Name>GH:rj_municipios_2021</Name>
+				<Title>rj_municipios_2021</Title>
+				<Abstract>GH:rj_municipios_2021 ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/rj_municipios_2021.zip˸notListing˸˸maxZoom˸8</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-44.88932055099994" miny="-23.368931961999948" maxx="-40.957940915999984" maxy="-20.76320546099991"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-44.88932055099994" miny="-23.368931961999948" maxx="-40.95794091600002" maxy="-20.76320546099991"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=rj_municipios_2021"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
 				<Name>GH:br_uf_2021</Name>
 				<Title>br_uf_2021</Title>
 				<Abstract>GH:br_uf_2021 ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/br_uf_2021.zip˸notListing˸˸maxZoom˸13</Keyword>
+					<Keyword>group˸shp˸˸˸//github.com/Araujo25555555555555555555/Mappia_Example/releases/download/Map_Download/br_uf_2021.zip˸notListing˸˸maxZoom˸8</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-73.9904499689999" miny="-33.751177993999946" maxx="-28.847639913999988" maxy="5.271841076999998"></LatLonBoundingBox>
